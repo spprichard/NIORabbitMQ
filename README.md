@@ -1,3 +1,3 @@
 # NIORabbitMQ
 
-A description of this package.
+The most experimental thing you have ever seen...

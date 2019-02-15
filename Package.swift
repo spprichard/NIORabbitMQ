@@ -14,10 +14,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "NIORabbitMQ",
-            dependencies: []),
+            name: "NIORabbitMQ", dependencies: ["NIO"]),
         .testTarget(
-            name: "NIORabbitMQTests",
-            dependencies: ["NIORabbitMQ"]),
+            name: "NIORabbitMQTests", dependencies: ["NIORabbitMQ"]),
     ]
 )
